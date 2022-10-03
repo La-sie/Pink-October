@@ -1,0 +1,115 @@
+<!Doctype html>
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = " website.css">
+    </head>
+ <body>
+
+    <section id = "header">
+      <div class="header-text">
+        <h1>The purpose is to<br>spread breast cancer awareness.</h1>
+          <span class = "square"></span> 
+        <p> Breast Cancer is said to have taken the lives of approximately 685000 women globally in
+            the year 2020.
+            </p>
+          <button class="common-btn">Read More</button>
+        <div class="line"> 
+          <span class="l-1"></span><br>
+          <span class="l-2"></span><br>
+          <span class="l-3"></span>
+        </div>
+    
+    </div>
+    </section>
+    
+    <nav id = "si-Nav">
+      <ul>
+        <li><a href = "#">HOME</a></li>
+        <li><a href = "#">ABOUT US</a></li>
+        <li><a href = "#">CONTACT</a></li>
+        <li><a href = "#">SUPPORT US</a></li>
+
+      </ul>
+    </nav>
+    <img src="menu.png" id="menuBtn" alt="logo">
+ </body>
+   
+
+   <section id= "about">
+    <div class=" about-left-col">
+      <img src="new.jpg">
+    </div>
+    <div class="about-right-col">
+      <div class="about-text">
+        <h1> About Us</h1>
+        <span class="square"></span>
+        <p>
+           Our organisation finds it is necessary to spread the awareness of breast cancer in order to save the lives of women and men inclusive.
+          We preach the gospel about the art of self examining yourself is also very important since it is leads to the early discovery
+          of cancerous lumps in the breast.
+        </p><br> <br>
+        <div class="line"> 
+          <span class="l-1"></span><br>
+          <span class="l-2"></span><br>
+          <span class="l-3"></span>
+        </div>
+        <h2>
+          "It's about focusing on the fight not the fright."
+        </h2>
+        <span class="square"></span>
+        <h3>
+          ----- Robin Roberts
+        </h3><br>
+        <div class="line"> 
+          <span class="l-1"></span><br>
+          <span class="l-2"></span><br>
+          <span class="l-3"></span>
+        </div>
+    </div>
+    </div>
+   </section>
+
+<section id=" numbers">
+  <div class=" container">
+  <div class=" left-column">
+    <div class="numbers-text">
+     <h1> Numbers and Facts </h1>
+     <br>
+     <span class="square"></span>
+     <br>
+     <p> These are basic facts that we gathered<br> in the course of our research.
+      This information also shows what you can do <br> as an individual in order to
+      reduce the risk of Cancer.
+     </p>
+     <button class="common-btn">Read More</button>
+     <br>
+     <div class="line"> 
+      <span class="l-1"></span><br>
+      <span class="l-2"></span><br>
+      <span class="l-3"></span>
+    </div>
+    </div>
+  </div>
+  </div>
+  <div id ="right-column">
+    <img src="breast3.jpg">
+</div>
+
+</section>
+
+ <script>
+  var menuBtn = document.getElementById("menuBtn");
+  var sideNav = document.getElementById("menuBtn");
+
+sideNav.style.right = "-250px";
+menuBtn.onclick = function(){
+  if(sideNav.style.right == "-250px"){
+      sideNav.style.right = "0";
+  }
+  else {
+    sideNav.style.right= "-250px";
+  }
+}
+</script>
+</html>
