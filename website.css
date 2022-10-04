@@ -162,26 +162,146 @@ div img {
     width: 450px;
     height: 450px;
     margin-left: 20px;
-    display: block;
-    float: right;
+
 }
 
-.left-column {
+.left-column{
     flex-basis: 50%;
+    text-align: left;
 }
 
 .right-column{
     flex-basis: 50%;
-} 
+}
 
 .numbers-text{
     max-width: 350px;
-    margin-left: 25px;
+    margin-left: 18px;
 }
 
 .numbers-text h1 {
     color: #f67c92;
 }
 .numbers-text button{
+    margin: 18px 0px;
+}
+
+.contact-row{
+    display: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-left, .contact-right{
+    flex-basis: 50%;
+}
+
+.contact-right img{
+    width: 45%;
+    height: 350px;
+    margin-right: 20px;
+    margin-bottom: 45px;
+    border: 1px solid #f67c92;
+    float: right;
+}
+
+.contact-right{
+    width: 100%;
+}
+
+form{
+    max-width: 350px;
     margin: 30px 0px;
+}
+
+form input {
+    width: 100%;
+    padding: 13px 10px;
+    margin-bottom: 5px;
+    margin-left: 18px;
+    outline : none; 
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #fab3c4;
+}
+
+.btn-box {
+    width: 100%;
+    display : flex;
+    justify-content: space-between;
+}
+
+.btn-box button{
+    flex-basis: 48%;
+    padding: 18px 0px;
+}
+
+.red{
+    color: #f67c92;
+    padding-top: 10px;
+}
+
+#footer{
+    padding: 50px 0 30px
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+flex-basis: 50%;
+margin-top: 60px;
+}
+
+.footer-right {
+    flex-basis: 35%;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-title h4 {
+    color: #fab3c4;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.link-title small{
+    font-size: 20px;
+    color: #777
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.copyright, .footer-logo{
+    flex-basis: 40%;
 }
