@@ -6,7 +6,6 @@
 body{
     background-image: url(breast.jpg);
     background-repeat: no-repeat;
-    border-radius:5px;
 }
 
 #header {
@@ -107,6 +106,7 @@ nav ul li a {
     top: 35px;
     z-index: 2;
     cursor: pointer;
+    border-radius: 3px;
 }
 
 #about {
